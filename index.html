@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photoshop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"> <a href="#index"><img src="./assets/photoshoplogo.png" alt=""></a>
+            </div>
+            <div class="nav-link">
+                <ul style=" display: flex
+                ;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    margin-top: 0;
+                    list-style-type: none">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="home-section" style="margin: 20px;">
+        <div class="home-overlay">
+            <!-- <img src="./assets/wedding photography.png" alt="work image"> -->
+            <div class="about-text">
+                <h1 style="font-family: Cursive;">Hi everyone</h1>
+                <h2 style="font-family: Cursive;">I am Harshad Photography</h2>
+                <h1 style="font-family: Cursive; margin-bottom: 20px;">I have done lots of photoshop work.</h1>
+                <a href="#about" class="btn-1">Know more ⏬ </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section" style="
+    margin: 20px;">
+        <p class="section_text_p1">Browse my Recent.</p>
+        <h1 class="title">About</h1>
+        <p style="text-align: center; max-width: 700px; margin: 0 auto;">
+            I specialize in wedding, kids, maternity, and photoshop photography. My goal is to capture your best
+            moments.
+        </p>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="#services" class="btn-2">Go to Services</a>
+        </div>
+    </section>
+    <!-- services SECTION -->
+    <section id="services">
+        <p class="section_text_p1" style="text-align: center;">Browse my Recent.</p>
+        <h1 class="title" style="text-align: center;">Services</h1>
+
+        <div class="scrolling-cards">
+            <div class="card">
+                <div class="artical-container">
+                    <img src="assets/Pre-Wedding.png" alt="">
+                </div>
+                <h2 class="experince-title project-title"><span>Pre-Wedding</span></h2>
+                <span>Price : 5000/- <br> One drone and soft copy <br>short video for status</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button onclick="sendWhatsApp('Pre-Wedding')" class="btn-project-btn">BOOK NOW</button>
+            </div>
+
+            <div class="card">
+                <div class="artical-container">
+                    <img src="assets/wedding photography.png" alt="">
+                </div>
+                <h2 class="experince-title project-title"><span>wedding photography</span></h2>
+                <span>Price : 5000/- <br> One drone and soft copy <br>short video for status</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button onclick="sendWhatsApp('wedding photography')" class="btn-project-btn">BOOK NOW</button>
+            </div>
+
+            <div class="card">
+                <div class="artical-container">
+                    <img src="assets/Newborn photography.png" alt="">
+                </div>
+                <h2 class="experince-title project-title"><span>Newborn photography</span></h2>
+                <span>Price : 5000/- <br> One drone and soft copy <br>short video for status</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button onclick="sendWhatsApp('Newborn photography')" class="btn-project-btn">BOOK NOW</button>
+            </div>
+
+            <div class="card">
+                <div class="artical-container">
+                    <img src="assets/Kids Photography.png" alt="">
+                </div>
+                <h2 class="experince-title project-title"><span>Kids Photography</span></h2>
+                <span>Price : 5000/- <br> One drone and soft copy <br>short video for status</span>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button onclick="sendWhatsApp('Kids Photography')" class="btn-project-btn">BOOK NOW</button>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <p class="section_text_p2" style="text-align: center;">Let’s Capture Memories Together</p>
+        <h1 class="title" style="text-align: center; padding: 20px;">Harshad Photography</h1>
+
+        <div class="experience-details-container">
+            <div class="services-containers">
+                <div class="details-container color-container" style="text-align: center; padding: 20px;">
+                    <h2 class="experience-sub-title project-title"><span>Business Card</span></h2>
+
+                    <p style="margin: 10px 0;">
+                        Creating timeless wedding memories, one frame at a time. Reach out to make your story
+                        unforgettable!
+                    </p>
+
+                    <p><strong>📞 Phone:</strong> +91-8080224138</p>
+                    <p><strong>📧 Email:</strong> harshadbansode890@email.com</p>
+                    <p><strong>📷 Instagram:</strong> @harshadphotography</p>
+
+                    <div class="btn-container" style="margin-top: 20px;">
+                        <!-- Contact Button via WhatsApp -->
+                        <a href="https://wa.me/918080224138" target="_blank">
+                            <button onclick="sendWhatsApp('')" class="btn btn-color-2 project-btn">Book now</button>
+                        </a>
+
+                        <!-- Download Business Card PDF -->
+                        <!-- <a href="./assets/HarshadPhotography_BusinessCard.pdf" download>
+                            <button class="btn btn-color-2 project-btn">Download Card</button>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer style="background-color: #f8f9fa; padding: 40px 20px; margin-top: 20px;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px;">
+
+            <!-- Column 1: Logo, About, Contact -->
+            <div style="flex: 1; min-width: 250px;">
+                <div class="logo-footer">
+                    <img src="./assets/photoshoplogo.png" alt="logo-footer" style="width: 150px;">
+                </div>
+                <p style="margin: 15px 0;">
+                    "At Harshad Photography, my vision is to capture the essence of your love story in every
+                    frame—turning fleeting moments into memories that last forever. From the joy of your pre-wedding
+                    shoot to the magic of your big day, I strive to make each wedding a beautifully told story that
+                    you’ll remember, relive, and cherish for a lifetime."
+                </p>
+                <h3>Contact Details</h3>
+                <p><a href="tel:+918080224138">Call us at +91-8080224138</a></p>
+                <p><a href="mailto:harshadbansode890@gamil.com">Contact our support team</a></p>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div style="flex: 1; min-width: 200px;">
+                <h4>Quick Links</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Social Media -->
+            <div style="flex: 1; min-width: 250px;">
+                <h4>Follow Us</h4>
+                <div>
+                    <a href="https://facebook.com/yourusername" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://youtube.com/@yourchannel" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <!-- <a href="https://pinterest.com/yourusername" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://t.me/yourusername" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://snapchat.com/add/yourusername" target="_blank"><i
+                            class="fab fa-snapchat-ghost"></i></a> -->
+                    <!-- <a href="https://discord.gg/yourinvite" target="_blank"><i class="fab fa-discord"></i></a> -->
+                    <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <hr style="margin: 30px 0;">
+        <p style="text-align: center;">Copyright © 2024 Harshad Bansode. All Rights Reserved.</p>
+    </footer>
+
+
+    </header>
+    <script>
+        function sendWhatsApp(projectName) {
+            const message = `Hi, I'm interested in your ${projectName} photoshot, Give me some details.`;
+            const phoneNumber = '+918080224138'; // no + sign
+            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+
+
+</body>
+
+</html>
